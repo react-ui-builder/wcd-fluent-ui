@@ -12,7 +12,7 @@
 
 | Framework | Boilerplate | Repository |
 |---|---|---|
-| Create React App | [Download]()  | [Source Code]() |
+| Create React App | [Download](https://github.com/react-ui-builder/fluent-ui-cra-boilerplate/archive/master.zip)  | [Source Code](https://github.com/react-ui-builder/fluent-ui-cra-boilerplate) |
 
 ### Contribute
 
