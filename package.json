@@ -1,0 +1,55 @@
+{
+  "name": "wcd-fluent-ui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env PORT=3030 BROWSER=none react-scripts start",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test --modulePaths=src",
+    "eject": "react-scripts eject",
+    "wcd": "webcodesk-srv -p 7070",
+    "server": "node ./server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@fluentui/react": "7.105.5",
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "9.3.2",
+    "@testing-library/user-event": "7.1.2",
+    "@types/history": "4.7.5",
+    "@types/jest": "25.1.4",
+    "@types/lodash": "4.14.151",
+    "@types/node": "13.9.0",
+    "@types/react": "16.9.23",
+    "@types/react-dom": "16.9.5",
+    "@webcodesk/react-app-framework-demo": "2.0.28",
+    "@webcodesk/webcodesk-srv": "2.0.3",
+    "cross-env": "6.0.3",
+    "express": "4.17.1",
+    "lodash": "4.17.15",
+    "office-ui-fabric-core": "11.0.0",
+    "prop-types": "15.7.2",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "react-media": "1.10.0",
+    "react-scripts": "3.4.0",
+    "typescript": "3.8.3"
+  },
+  "wcd": {
+    "appMode": "demo"
+  }
+}
