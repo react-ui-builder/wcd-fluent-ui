@@ -40,7 +40,7 @@
     "@webcodesk/webcodesk-srv": "2.0.3",
     "cross-env": "6.0.3",
     "express": "4.17.1",
-    "lodash": "4.17.15",
+    "lodash": "4.17.21",
     "office-ui-fabric-core": "11.0.0",
     "prop-types": "15.7.2",
     "react": "16.13.0",
